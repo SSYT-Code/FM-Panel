@@ -1,5 +1,5 @@
-# LN-Panel
-LaNenicu Panel Developement
+# FM Panel
+Forumotion Panel Developement
 
 # Update
 ### ~[#2.0.4]
