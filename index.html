@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>Panel - LaNenicu</title>
+  <link href="http://fonts.googleapis.com/css?family=Londrina+Solid|Lobster|Lobster+Two" rel="stylesheet" type="text/css" />
+  <link href="http://fonts.googleapis.com/css?family=PT+Sans+Narrow" rel="stylesheet" type="text/css" />
+  <link href="http://fonts.googleapis.com/css?family=Aladin&subset=latin,latin-ext" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="//music.web44.net/panelcss.css" />
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta http-equiv="content-script-type" content="text/javascript" />
+  <meta http-equiv="content-style-type" content="text/css" />
+  <link rel="shortcut icon" type="image/x-icon" href="http://i59.tinypic.com/5ue2j8.png" />
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js" type="text/javascript"></script>
+  <script src="http://music.web44.net/panel_array.js" type="text/javascript"></script>
+  <!-- <link href="http://killers.ro/templates/killers/style/styles.css" rel="stylesheet" /> -->
+  <!-- <link href="http://killers.ro/templates/killers/style/engine.css" rel="stylesheet" /> -->
+</head>
+
+<body>
+  <div id="wrap-panel">
+    <header class="nav">
+      <img src="http://i84.servimg.com/u/f84/16/36/74/64/211jy910.png" class="icon" /><a href="/h2-panel">Forumotion Panel</a>
+      <ul class="user-right">
+        <li class="user-avatar"><a href=""></a></li>
+        <li class="user"><a href="">Player <i class="fa fa-chevron-circle-down"></i></a></li>
+      </ul>
+    </header>
+    <div id="container">
+      <div id="left-slidebar">
+        <ul class="nav-menu">
+          <li class="active"><a href="/h2-?/page?mode=panel"><i class="fa fa-home"></i> Acasa</a></li>
+          <li><a href="/forum"><i class="fa fa-home"></i> Forum</a></li>
+          <li><a href="http://www.lanenicu.com/h7-?/page?mode=server-dns"><i class="fa fa-server"></i> Server DNS</a></li>
+          <li><a href="http://www.lanenicu.com/h4-?/page?mode=applications"><i class="fa fa-users"></i> Applications <font color="green">(Open)</font></a></li>
+          <li><a href="http://www.lanenicu.com/h5-?/page?mode=partnership"><i class="fa fa-pencil-square-o"></i> Partnership</a></li>
+          <li><a href="http://www.lanenicu.com/h6-?/page?mode=bugs"><i class="fa fa-bug"></i> Bugs</a></li>
+          <li><a href="http://www.lanenicu.com/h11-?/page?mode=buy%20premium"><i class="fa fa-money"></i> Premium</a></li>
+	  <li><a href="http://www.lanenicu.com/h3-?/page?mode=profile"><i class="fa fa-user"></i> Profile</a></li>
+          <li><a href="http://www.lanenicu.com/h8-?/page?mode=admin-settings"><i class="fa fa-wrench"></i> Admin</a></li>
+        </ul>
+      </div>
+      <!-- BEGIN switch_panel_row -->
+      <div id="center-slider">
+        <div id="content-block">
+          <div id="forum_activity">
+            <span class="box_id1"><i class="fa fa-commenting-o"></i><div><b>10,026</b>postari active</div></span>
+            
+            <span class="box_id2"><i class="fa fa-users"></i><div><b>984</b>total utilizatori</div></span>
+            
+            <span class="box_id3"><i class="fa fa-pencil-square-o"></i><div><b>7</b>aplicatii create</div></span>
+            
+            <span class="box_id4"><i class="fa fa-user"></i><div><b>Brebenica.Sami</b>ultimul inregistrat</div></span>
+          </div>
+          <div class="slidehead">
+            <h3><i class="fa fa-cogs"></i> Ultimele actiuni</h3>
+          </div>
+          <div id="slidecontent">
+            <div class="dialogs">
+              <div class="itemdiv dialogdiv">
+                <div class="user"><img alt="User's Avatar" src="http://redpanel.bugged.ro/img/avatars/40/188.png" /></div>
+                <div class="body">
+                  <div class="time">
+                    <i class="icon-time"></i><span class="green"></span>
+                  </div>
+                  <div class="text">
+                    <p>
+                      In curand...
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- END switch_panel_row -->
+      <div id="right-slidebar">
+        
+        <div class="slidebar">
+          <div class="slidehead">
+            <h3>Facebook <i class="fa fa-facebook"></i></h3>
+          </div>
+          <div id="slidecontent">
+            <!-- BEGIN facebook_plugin_timeline -->
+            	<div class="fb-page" data-href="https://www.facebook.com/lanenicu/" data-tabs="timeline" data-width="275px" data-height="130px" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/lanenicu/"><a href="https://www.facebook.com/lanenicu/">Forumul Nenicului</a></blockquote></div></div>
+            <!-- END facebook_plugin_timeline -->
+          </div>
+        </div>
+        
+        <div class="slidebar">
+          <div class="slidehead">
+            <h3>Panel Update <i class="fa fa-cogs"></i></h3>
+          </div>
+          <div id="slidecontent">
+            <div id="panel-updates"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer class="clr">
+    <div class="foot-left">
+      <i class="fa fa-html5"></i>  <i class="fa fa-css3"></i> | Copyright  <a href="/" style="text-decoration:none"></a>© 2016-2017 &nbsp; <br /> 
+      <a href="#">Coding and Design By [LN]Stark.7</a>&nbsp; | <a href="http://www.forumgratuit.ro" target="_blank">Powered by LaNenicu.com</a>
+      </div>
+      <div class="counter"> 
+      </div> 
+    </footer>
+    <!-- BEGIN facebook_plugin -->
+        <div id="fb-root"></div>
+        <script>(function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = "//connect.facebook.net/ro_RO/sdk.js#xfbml=1&version=v2.5";
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
+    <!-- END facebook_plugin -->
+  <div id="user_box_content" style="display: none">
+    <ul>
+      <li><a href="/h3-?/page?mode=profile"><i class="fa fa-user"></i>  Profile</a></li>
+      <li><a href="/profile?mode=editprofile"><i class="fa fa-wrench"></i> Forum Settings</a></li>
+      <li><a href="/login?logout"><i class="fa fa-sign-out"></i> Log Out</a></li>
+    </ul>
+  </div>
+</body>
+<!-- <style>
+body {
+    margin: 0 auto;
+    padding: 0;
+    line-height: 1;
+    background: #f5f5f5;
+    font-size: 14px;
+}
+    
+header.nav {
+    background: #464646;
+    min-height: 40px;
+    line-height: 40px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+    
+header.nav > a {
+    font-size: 25px;
+    color: white;
+    text-decoration: inherit;
+}
+    
+ul.user-right {
+    float: right;
+    overflow: hidden;
+    padding: 1px;
+}
+    
+ul.user-right > li {
+    display: inline-block;
+    float: left;
+    margin: 0 10px;
+}
+    
+li.user-avatar a img {
+    float: left;
+    width: 35px;
+    height: 35px;
+}
+    
+ul.user-right > li a {
+    color: white;
+    text-decoration: inherit;
+}
+    
+ul.user-right {
+    float: right;
+    overflow: hidden;
+    padding: 1px;
+    position: relative;
+    top: 4px;
+    -webkit-padding-start: 0px;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+}
+    
+div#left-slidebar {
+    width: 243px;
+    float: left;
+    margin: 20px 0 10px 10px;
+}
+    
+ul.nav-menu {
+    overflow: hidden;
+    min-height: 200px;
+    display: inline-block;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 0;
+}
+    
+div#wrap-panel {
+    overflow: hidden;
+    clear: both;
+}
+    
+div#center-slider {
+    width: 815px;
+    float: left;
+    margin: 20px 0 0 0;
+    margin-right: -20px !important;
+    padding-left: 13px;
+}
+    
+div#right-slidebar {
+    width: 244px;
+    float: right;
+    margin: 20px 10px 0 0;
+}
+    
+ul.nav-menu > li {
+    width: 99%;
+    display: inline-block;
+}
+    
+ul.nav-menu > li > a {
+    text-decoration: inherit;
+    line-height: 25px;
+    display: block;
+    transition: color 0.4s, background 0.4s;
+    position: relative;
+    padding: 10px 10px 8px;
+    font-family: sans-serif, Arial;
+    font-size: 15px;
+    font-weight: bold;
+    color: #414140;
+    border-bottom: 1px dotted #c9c8c8;
+}
+    
+ul.nav-menu > li > a::last-child
+{
+    border-bottom: 0;
+}
+    
+footer {
+    width: 720px;
+    padding-top: 18px;
+    border-top: 1px dotted #b7b3b3;
+    margin: 25px auto 20px auto;
+    position: relative;
+}
+    
+.foot-left {
+    font-size: 13px;
+    color: #b2aeae;
+    line-height: 16px;
+    text-shadow: 0 1px 0 #fff;
+    list-style: none;
+}
+    
+.foot-left, .foot-left > a, .foot-left > a {
+    color: #949494;
+    text-decoration: inherit;
+}
+    
+ul.nav-menu {
+    background: #fff;
+    padding: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.12);
+    border-radius: 2px;
+}
+    
+footer:before {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 50px !important;
+    background: url("http://i59.tinypic.com/5ue2j8.png");
+    right: 0;
+    top: 10px;
+    background-size: 98%;
+}
+    
+img.icon {
+    float: left;
+    width: 36px;
+    position: relative;
+    top: 1px;
+    left: -5px;
+}
+    
+.slidebar {
+    background: #fff;
+    padding: 5px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.12);
+    border-radius: 2px;
+}
+    
+.slidebar h3 {
+    font-size: 17px;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    font-weight: bold;
+    color: #414140;
+    border-bottom: 1px dashed rgba(0, 0, 0, 0.1);
+    padding: 8px 10px;
+}
+    
+div#slidecontent {
+    margin-top: 10px;
+    padding: 2px;
+}
+    
+.slidebar:nth-child(1) h3 i {
+    float: right;
+    color: #4372CC;
+}
+    
+.slidebar:nth-child(2) h3 i {
+    float: right;
+    color: #189852;
+}
+    
+.slidebar:nth-child(3) h3 i {
+    float: right;
+    color: #C35D34;
+}
+    
+.slidebar h3:first-letter {
+    color: #a5b33d;
+}
+    
+div#panel-updates {
+    white-space: pre-line;
+    font-weight: 700;
+    font-family: serif;
+    font-size: 12px;
+    overflow: hidden;
+    position: relative;
+    top: -15px;
+    line-height: 20px;
+}
+    
+div#panel-updates img {
+    display: none;
+}
+    
+div#panel-updates hr {
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    margin-top: 5px;
+    padding-top: 0px;
+    border: 0.5px dashed #ddd;
+}
+    
+div#right-slidebar .slidebar:nth-child(1) {
+    height: 350px;
+    clear: both;
+    overflow: hidden;
+}
+    
+#content-block {
+    border-radius: 3px;
+    box-shadow: 0 1px 0 #F1F1F1, 0 7px 10px rgba(190, 190, 190, 1);
+    background: #fffdfd;
+    border-bottom: 4px solid #f7f5f5;
+}
+
+#speed-bar {
+    border-bottom: 1px dotted #c5c3c3;
+    padding: 14px 15px 15px 35px;
+    background: url("http://64.19.142.11/killers.ro/templates/killers/images/speedbar.png") no-repeat 15px;
+}
+
+#speed-bar a, #speed-bar span {
+    color: #64acef;
+}
+
+#speed-bar a:hover {
+    text-decoration: underline;
+}
+
+.short-story:nth-child(1) {
+    border-top: 0;
+}
+
+.short-story {
+    border-top: 1px dotted #c9c7c7;
+}
+
+.short-title {
+    border-bottom: 1px dotted #c9c7c7;
+    padding: 0 15px;
+    line-height: 51px;
+}
+
+.short-title h2, .short-title h1 {
+    float: left;
+}
+
+.short-title h2 a, .short-title h1 {
+    display: block;
+    color: #5d5d5c;
+    text-transform: uppercase;
+    font-size: 15px;
+    transition: color 0.4s;
+}
+
+.short-title h2 a:hover {
+    color: #64acef;
+}
+
+.news-text {
+    color: #5d5d5c;
+    line-height: 17px;
+    padding: 15px;
+}
+</style> -->
+  <script type="text/javascript">/*window.history.pushState(null, null, "/panel/index");*/</script>
+</html>
